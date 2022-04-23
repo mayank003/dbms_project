@@ -42,5 +42,9 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:3001/"
+  "proxy": {
+    "/auth/google": {
+      "target": "localhost:3001"
+    }
+  }
 }
